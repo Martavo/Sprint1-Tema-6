@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h2>Formulario de registro</h2>
+
+    <form action="ProcesarFormulario.php" method="get">  <!--Se define donde se enviará, usamos el metodo get-->
+        <label for="nombre">Nombre del usuario:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="nombre">Primer apellido del usuario:</label>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="nombre">Usuario:</label>
+        <input type="text" id="usuario" name="usuario" required> <!--Recogeremos la variable del usuario dentro de "usuario"-->
+
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
