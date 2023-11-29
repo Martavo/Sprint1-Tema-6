@@ -1,8 +1,8 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "GET") { //Verificamos que se use el metodo get
-    $nombre = $_GET['nombre'];
-    $apellido = $_GET['apellido'];
-    $usuario = $_GET['usuario'];
+    String $nombre = $_GET['nombre'];
+    String $apellido = $_GET['apellido'];
+    String $usuario = $_GET['usuario'];
 
     echo "<h2>Valores añadidos al formulario:</h2>"; //Se indica que se imprime
     echo "<p>Nombre: $nombre</p>"; //se imprime el nombre de usuario
